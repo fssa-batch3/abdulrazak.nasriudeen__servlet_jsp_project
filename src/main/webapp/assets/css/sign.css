@@ -1,0 +1,139 @@
+@charset "ISO-8859-1";
+  *{
+  margin : 0px ;
+  padding: 0px ;
+  
+  }
+   .login {
+  width: 1440px;
+  height: 855px;
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  /* justify-content: ; */
+  overflow: hidden;
+  gap: 5%;
+}
+.circle {
+  width: 500px;
+  height: 500px;
+  border-radius: 350px;
+  background-color: #fe3044;
+  margin-top: -700px;
+  margin-left: -120px;
+  display : flex;
+  align-items : flex-end;
+}
+.loginContainer {
+  width: 350px;
+  height: 400px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 10px;
+  align-items: center;
+  font-family: "Lexend Exa", sans-serif;
+
+  background-color: #3d3d3d;
+  border: 1px solid white;
+  gap: 8%;
+}
+.signUpContainer{
+	height : 500px;
+	gap : 5%;
+	
+	
+}
+.loginContainer h2 {
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+}
+.cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  gap: 5%;
+}
+.cont span {
+  color: #ff637c;
+}
+.inputContainer {
+  width: 310px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 60px;
+  padding: 5px;
+  background-color: #373737;
+  display: flex;
+  flex-direction: column;
+  color: #ff637c;
+  gap: 5%;
+}
+.inputContainer input {
+  height: 30px;
+  width: 83%;
+
+  border: none;
+  background-color: #373737;
+  outline: none;
+  color: white;
+  font-size: 20px;
+  border-bottom: 1px solid white;
+  font-family: "Lexend Exa", sans-serif;
+}
+.inputContainer p {
+  font-size: 11px;
+}
+.loginContainer h5 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.loginContainer button {
+  width: 90%;
+  height: 50px;
+  border: none;
+  background-color: #fe3044;
+  color: black;
+  border-radius: 30px;
+  font-size: 20px;
+  font-family: "Lexend Exa", sans-serif;
+}
+.loginContainer button:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  border: 2px solid white;
+  background-color: #f84e69;
+}
+
+.circ2 {
+  width: 600px;
+  height: 600px;
+  border-radius: 350px;
+  background-color: #fe3044;
+  margin-bottom: -700px;
+  margin-right: -120px;
+}
+@media (max-width: 768px) {
+  .circ2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+  }
+  .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+  }
+  .login {
+    width: 495px;
+    height: 700px;
+  }
+}
+   

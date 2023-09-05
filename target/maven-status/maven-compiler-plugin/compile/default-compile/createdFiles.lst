@@ -1,0 +1,6 @@
+com\fssa\reparoWebApp\GetAllUsers.class
+com\fssa\reparoWebApp\LogoutServlet.class
+com\fssa\reparoWebApp\WorkShopRegisterServlet.class
+com\fssa\reparoWebApp\LoginServlet.class
+com\fssa\reparoWebApp\WorkshopLoginServlet.class
+com\fssa\reparoWebApp\UserRegistrationServlet.class
